@@ -25,4 +25,10 @@ cv.imshow("Dilated", dilated)
 # eroded
 eroded = cv.erode(dilated, (3, 3), iterations=1)
 cv.imshow("Eroded", eroded)
+
+#Resize
+
+resized = cv.resize(img2, (500,500) )
+cv.imshow("resized", resized)
+
 cv.waitKey(0)
